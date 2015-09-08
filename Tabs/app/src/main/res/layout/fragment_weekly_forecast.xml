@@ -1,0 +1,38 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0a5da4"
+
+    tools:context="com.michellegoldman.tabs.fragments.WeeklyForecastFragment">
+
+    <TextView
+        android:id="@+id/weeklyTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="32sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal"
+        android:text="@string/weekly_forecast" />
+    <TextView
+        android:id="@+id/currentLocationTV"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="60dp"
+        android:textSize="24sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_gravity="top"
+        android:gravity="center_horizontal"
+        android:text="@string/current_location" />
+    <ImageView
+        android:id="@+id/currentImage"
+        android:layout_width="match_parent"
+        android:layout_height="460dp"
+        android:layout_marginTop="120dp"
+        android:src="@mipmap/weekly_weather_detail"/>
+
+</FrameLayout>

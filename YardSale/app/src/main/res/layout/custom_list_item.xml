@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/customContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:background="?android:attr/activatedBackgroundIndicator">
+
+    <ImageView
+        android:id="@+id/customItemImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:src="@mipmap/yardsale_sign"/>
+
+    <TextView
+        android:id="@+id/customItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/customItemImage"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/item_name"/>
+
+    <TextView
+        android:id="@+id/customItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/customItemImage"
+        android:layout_below="@+id/customItemName"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/item_price"/>
+
+</RelativeLayout>

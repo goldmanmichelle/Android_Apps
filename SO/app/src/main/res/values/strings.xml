@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shout Out</string>
+    <string name="enter_text">Create some positive energy in the cosmos - Then shout it out for all to hear!</string>
+    <string name="creation_text">Enter your creation</string>
+    <string name="action_settings">Settings</string>
+    <string name="shout_it_button">Shout It</string>
+    <string name="my_shouts_label">My Shouts</string>
+    <string name="numOfShouts"># of Shouts: </string>
+    <string name="lengthOfShouts">Avg Length of Shouts: </string>
+</resources>

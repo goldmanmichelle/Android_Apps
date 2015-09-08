@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">NavDrawer</string>
+
+    <string name="title_section1">Featured Story</string>
+    <string name="title_section2">Recent Stories</string>
+    <string name="title_section3">Image Gallery</string>
+    <string name="title_section4">Settings</string>
+    <string name="preference_title">NavDrawer Preferences</string>
+    <string name="title_activity_preference">Preferences</string>
+    <string name="checkbox_title_preference">Disable Data</string>
+    <string name="checkbox_summary_preference">Disable data over mobile.</string>
+    <string name="cache_activity_preference">Mobile Data Disabled</string>
+    <string name="featured_story">Featured Story</string>
+    <string name="article_name">Article Name</string>
+
+    <string name="recent_stories">Recent Stories</string>
+    <string name="image_gallery">Image Gallery</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

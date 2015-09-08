@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tabs</string>
+
+
+    <string name="title_section1">Current</string>
+    <string name="title_section2">Hourly</string>
+    <string name="title_section3">Weekly</string>
+    <string name="current_location">Fort Lauderdale, FL</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="current_forecast">Current Forecast</string>
+    <string name="weekly_forecast">Weekly Forecast</string>
+    <string name="hourly_forecast">Hourly Forecast</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

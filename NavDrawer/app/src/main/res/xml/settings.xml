@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--create category -->
+    <PreferenceCategory
+        android:title="@string/preference_title">
+
+        <!--First category-->
+        <Preference
+            android:key="DISABLE_DATA"
+            android:summary="@string/checkbox_summary_preference"
+            android:title="@string/checkbox_title_preference"
+            android:defaultValue="clicked"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>

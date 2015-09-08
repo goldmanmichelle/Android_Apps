@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MultiApp</string>
+    <string name="survey_list_title">Survey List</string>
+    <string name="add_button">Add Item</string>
+    <string name="first_name">First Name </string>
+    <string name="last_name">Last Name </string>
+    <string name="survey_title">Add Survey Now</string>
+    <string name="city">City </string>
+    <string name="state">State </string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="reset_form">Reset Form</string>
+    <string name="title_activity_preference">Reset Survey Form Contents</string>
+    <string name="checkbox_title_preference">Reset Form</string>
+    <string name="checkbox_summary_preference">Click to clear form now.</string>
+    <string name="cache_activity_preference">Survey form reset!</string>
+    <string name="create_survey">Create Survey</string>
+    <string name="action_add">Add Survey</string>
+    <string name="delete_button">Delete</string>
+    <string name="title_activity_survey_add">Add Survey</string>
+    <string name="fname_hint">John</string>
+    <string name="lname_hint">Doe</string>
+    <string name="city_hint">New York</string>
+    <string name="state_hint">NY</string>
+
+
+    <string name="action_settings">Settings</string>
+</resources>
