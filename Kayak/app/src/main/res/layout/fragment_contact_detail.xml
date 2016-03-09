@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kayaking"/>
+
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/image"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/first_name_label" />
+
+    <TextView
+        android:id="@+id/firstNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/last_name_label"
+        android:layout_below="@+id/titleLabel"/>
+
+    <TextView
+        android:id="@+id/lastNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title_label"
+        android:layout_below="@+id/firstNameLabel"/>
+
+    <TextView
+        android:id="@+id/ageLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/age_label"
+        android:layout_below="@+id/lastNameLabel" />
+
+    <TextView
+        android:id="@+id/spotParkNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/first_name_textview"
+        android:layout_above="@+id/firstNameLabel"
+        android:layout_toRightOf="@+id/titleLabel"/>
+
+    <TextView
+        android:id="@+id/spotCityNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/last_name_textview"
+        android:layout_alignTop="@+id/firstNameLabel"
+        android:layout_toRightOf="@+id/firstNameLabel"/>
+
+    <TextView
+        android:id="@+id/spotStateNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/title_textview"
+        android:layout_below="@+id/spotCityNameView"
+        android:layout_toRightOf="@+id/lastNameLabel"/>
+
+    <TextView
+        android:id="@+id/spotRatingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/age_textview"
+        android:layout_below="@+id/spotStateNameView"
+        android:layout_toRightOf="@+id/ageLabel"/>
+
+</RelativeLayout>

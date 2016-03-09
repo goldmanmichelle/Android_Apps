@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contact_item"
+    android:orientation="vertical"
+
+                android:layout_width="match_parent"
+    android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/spotImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/kayaking2"/>
+
+    <TextView
+        android:id="@+id/spotParkNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/spotImageView"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/spot_park_name"/>
+
+    <TextView
+        android:id="@+id/spotRatingView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#b47a1c"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/spotParkNameView"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="@string/spot_rating"/>
+
+    <TextView
+        android:id="@+id/spotCityNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+
+        android:layout_below="@+id/spotParkNameView"
+        android:layout_toRightOf="@+id/spotImageView"
+        android:text="@string/spot_city_name"/>
+
+    <TextView
+        android:id="@+id/spotStateNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spotParkNameView"
+        android:layout_toRightOf="@id/spotCityNameView"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+
+        android:text="@string/spot_state_name"/>
+
+
+
+</RelativeLayout>

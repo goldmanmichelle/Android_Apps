@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:gravity="center_horizontal"
+              android:background="#FFFFFF"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/widgetTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="#382019"
+        android:text="@string/app_name"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
+
+    <TextView android:id="@+id/empty"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dp"
+              android:layout_marginBottom="20dp"
+              android:textAppearance="?android:attr/textAppearanceMedium"
+              android:text="@string/empty" />
+    <ListView
+        android:id="@+id/contact_List"
+        android:layout_width="wrap_content"
+        android:background="#cb402821"
+        android:paddingLeft="10dp"
+        android:layout_height="120dp"
+        style="@android:style/TextAppearance.DeviceDefault.Small"/>
+
+    <Button
+        android:id="@+id/formButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/form_button"
+        android:layout_gravity="bottom"
+        android:background="#382019"
+        android:textColor="#fcfbfb"
+        android:onClick="onClick" />
+
+</LinearLayout>

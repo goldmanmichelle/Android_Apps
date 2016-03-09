@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Kayaking</string>
+
+    <string name="action_settings">Save</string>
+    <string name="action_return_home">Home</string>
+    <string name="action_form">Add Spot</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_reset_form">Reset</string>
+    <string name="action_save_form">Save</string>
+
+    <string name="form_activity">NEW SPOT</string>
+    <string name="list_activity">KAYAK SPOTS</string>
+    <string name="view_activity">SPOT DETAILS</string>
+    <string name="contact_details">Spot Details</string>
+    <string name="contact_form">New Spot Form</string>
+
+    <string name="contact_list">All Contacts</string>
+    <string name="save_button">SAVE</string>
+
+    <string name="first_name_label">Park Name: </string>
+    <string name="last_name_label">City:</string>
+    <string name="title_label">State: </string>
+    <string name="age_label">Rating: </string>
+
+
+    <string name="first_name_textview"> Jonathan Dickinson</string>
+
+    <string name="last_name_textview"> Jupiter</string>
+
+    <string name="title_textview"> FL</string>
+
+    <string name="age_textview"> 10</string>
+
+
+    <string name="age_editText">Park Name</string>
+
+    <string name="title_editText">City</string>
+
+    <string name="firstName_editText">State</string>
+
+    <string name="lastName_editText">Rate this park</string>
+
+
+    <string name="spot_park_name">Park Name</string>
+    <string name="spot_city_name">City</string>
+    <string name="spot_state_name">State</string>
+    <string name="spot_rating">Rating</string>
+
+    <string name="cancel_button">Cancel Spot</string>
+
+    <string name="delete_button">Delete Contact</string>
+    <string name="empty">No Kayaking Spots</string>
+    <string name="form_button">Add Spot</string>
+</resources>

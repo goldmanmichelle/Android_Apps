@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/new_course_textView"
+        android:text="@string/course_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/TextAppearance.DeviceDefault.Large"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/new_course_wrapper"
+        android:layout_below="@id/new_course_textView"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/course_editText"
+            android:hint="@string/course_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:capitalize="words"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/times_taken_wrapper"
+        android:layout_below="@id/new_course_wrapper"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/times_taken_editText"
+            android:hint="@string/times_taken"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="2"
+            android:ems="10"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/cancel_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:layout_marginLeft="70dp"
+        android:layout_alignBottom="@+id/save_button"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@+id/cancel_button"
+        android:layout_below="@+id/times_taken_wrapper"
+        android:layout_marginTop="92dp"/>
+
+    <TextView
+        android:id="@+id/course_name_prompt"
+        android:visibility="invisible"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/course_name_prompt"
+        android:layout_below="@+id/new_course_wrapper"
+        android:layout_alignEnd="@+id/new_course_wrapper"
+        android:textColor="#641818"
+        android:gravity="center_horizontal|left"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/times_taken_prompt"
+        android:visibility="invisible"
+        android:layout_marginLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/times_taken_prompt"
+        android:layout_below="@+id/times_taken_wrapper"
+        android:textColor="#641818"
+        android:gravity="center_horizontal|left"
+        android:textSize="12sp"
+        android:layout_alignEnd="@+id/times_taken_wrapper"/>
+
+</RelativeLayout>

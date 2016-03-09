@@ -1,0 +1,248 @@
+<resources>
+    <string name="app_name">Truth or Tale</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_rules">Rules</string>
+    <string name="title_activity_about">About Truth or Tale</string>
+    <string name="title_activity_category">Select a Category</string>
+    <string name="title_activity_quiz">Quit Game</string>
+    <string name="activity_main">Truth or Tale</string>
+    <string name="facebook_app_id">474728259394814</string>
+
+    <string name="quiz_title">NEW GAME</string>
+
+    <string name="category_title">Choose a Category</string>
+    <string name="category_desc">Select any category you like and the fun begins when you tap Start.</string>
+    <string-array name="game_categories">
+        <item>Art and Literature</item>
+        <item>Music</item>
+        <item>Science &amp; Nature</item>
+        <item>Geography</item>
+        <item>History &amp; Holidays</item>
+        <item>People &amp; Places</item>
+        <item>Sports &amp; Leisure</item>
+        <item>Food &amp; Drink</item>
+    </string-array>
+
+    <string name="category_name">Science &amp; Nature</string>
+    <string name="sample_question">Tapas are small savory Spanish dishes.</string>
+    <string name="timer">0 : 59</string>
+    <string name="answer">Correct</string>
+    <string name="level">Level 1</string>
+    <string name="number_correct_answers_label"># Correct :</string>
+    <string name="number_correct_answers">0</string>
+
+    <string name="start_button">Start</string>
+    <string name="back_button">Back</string>
+    <string name="correct_answer">CORRECT</string>
+    <string name="incorrect_answer">INCORRECT</string>
+    <string name="correct_toast">You got it!</string>
+    <string name="incorrect_toast">Try again!</string>
+    <string name="game_over_label">GAME OVER</string>
+
+    <!--GEOGRAPHY QUESTIONS -->
+    <string name="question_oceans">The Pacific Ocean is larger than the Atlantic.</string>
+    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean.</string>
+    <string name="question_africa">The source of the Nile River is in Egypt.</string>
+    <string name="question_americas">The Amazon River is the longest river in the Americas.</string>
+    <string name="question_asia">Lake Baikal is the world\'s oldest and deepest freshwater lake.</string>
+    <string name="question_honolulu">Honolulu means big harbor.</string>
+    <string name="question_united_states">The United States would fit 3-1/2 times into the continent of Africa.</string>
+    <string name="question_greece">Ionian and Cyclades are Greek islands.</string>
+    <string name="question_croatia">Zagrebia is the capital of Croatia.</string>
+    <string name="question_san_juan">San Juan means rich port in Spanish.</string>
+    <string name="question_phillipines">Phillipines is spelled correctly.</string>
+    <string name="question_drumlins">Drumlins and eskers are formed by glaciers.</string>
+    <string name="question_date_line">The International Date Line is an imaginary line that follows the 180 degree meridian through the Atlantic Ocean.</string>
+    <string name="question_iraq">Baghdad is the capital of Iraq.</string>
+    <string name="question_lochness">Loch Ness is the deepest Scottish Loch.</string>
+    <string name="question_appalachian">Mt. Mitchell is the highest mountain in the Appalachian range.</string>
+    <string name="question_amur">The Amur River is located in Egypt.</string>
+    <string name="question_haiti">The basic unit of currency in Haiti is the Gourde.</string>
+    <string name="question_iberian">Spain and France occupy the Iberian Peninsular.</string>
+    <string name="question_luxembourg">Luxemborg is spelled correctly.</string>
+
+
+    <!--PEOPLE & PLACES QUESTIONS -->
+    <string name="question_billy">Billy the Kid\'s real name was William Bonney.</string>
+    <string name="question_emu">Rod Hull is associated with Emu.</string>
+    <string name="question_pop">Elton John and Sonny Bono called themselves Sharon and Phyllis.</string>
+    <string name="question_eiffel">Eiffele Tower is spelled correctly.</string>
+    <string name="question_lindenbergh">Aviator, Charles Lindenbergh, was Time\'s first Man of the Year in 1927.</string>
+    <string name="question_divorce">9% of divorced couples still have sex together.</string>
+    <string name="question_moon">Buzz Aldrin was the third man to set foot on the moon.</string>
+    <string name="question_connery">Sean Connery once worked as a coffin polisher.</string>
+    <string name="question_epsom">The Surrey town of Epsom is famous for its soap.</string>
+    <string name="question_bugs">Clark Gable was the inspiration for Bugs Bunny.</string>
+    <string name="question_bassinger">Kim Bassinger was sued for not acting in Boxing Helena.</string>
+    <string name="question_fort_knox">Fort Knox, located in Texas, is the location of the USA\'s gold reserves.</string>
+    <string name="question_princess_diana">Princess Diana\'s maiden name was Spencer.</string>
+    <string name="question_friendship_bridge">The Friendship Bridge connects Nepal to Bangladesh.</string>
+    <string name="question_james_dean">James Dean died of an overdose.</string>
+    <string name="question_picasso">Picasso painted the most paintings of all famous artists.</string>
+    <string name="question_manchester">A person from Manchester is called a Mancunion.</string>
+    <string name="question_crystal_palace">Football player, Eric Cantona, drop kicked a fan at Crystal Palace.</string>
+    <string name="question_easter_island">Argentina owns Easter Island.</string>
+    <string name="question_mike_tyson">Mike Tyson was born in Brooklyn.</string>
+
+
+    <!--FOOD & DRINK QUESTIONS -->
+    <string name="question_chablis">Chablis is typically white.</string>
+    <string name="question_eggplant">An eggplant is an Aubergine.</string>
+    <string name="question_couscous">Couscous means cooked twice.</string>
+    <string name="question_cow">Boston butt and jowl are parts of a cow.</string>
+    <string name="question_sangria">Sangria is a combination of fruit juice and wine.</string>
+    <string name="question_rosti">Potato is the main ingredient in rosti.</string>
+    <string name="question_gin">Gin was invented in Geneva.</string>
+    <string name="question_tayberry">A tayberry is a cross between a blackberry and a raspberry.</string>
+    <string name="question_artichoke">Artichokes come in Globe and Jerusalem varieties.</string>
+    <string name="question_ghee">Ghee is the liquid butter made from cow or buffalo milk.</string>
+    <string name="question_blini">In Russia, a pancake is called a blintze or blini.</string>
+    <string name="question_carrot">You use more calories eating carrots than you gain.</string>
+    <string name="question_stinger">The cocktail, Stinger, is made with Creme de Menthe and brandy.</string>
+    <string name="question_sandwich">The sandwich was named after the Earl of Sandwich.</string>
+    <string name="question_epicure">A person with refined taste in food and drink is an epicure.</string>
+    <string name="question_lepidotery">Lepidopttery, butterfly collecting, is spelled correctly.</string>
+    <string name="question_pesce_martello">If you were served pesce martello in Italy, you would be eating mussels.</string>
+    <string name="question_forks">Forks were originally called splitspoons.</string>
+    <string name="question_chop_suey">The Chinese dish Chop Suey means Odds &amp; Ends.</string>
+    <string name="question_pentagon">The Pentagon accidentally ordered an 82 year supply of freeze dried tuna salad mix.</string>
+
+
+    <!--HISTORY & HOLIDAYS QUESTIONS -->
+    <string name="question_roman">The number 69 in Roman numerals is LXIX.</string>
+    <string name="question_rosetta">The Rosetta Stone was found in Italy.</string>
+    <string name="question_harvard">Harvard is the oldest college in the world.</string>
+    <string name="question_frosty">Frosty the Snowman\'s eyes were made out of buttons.</string>
+    <string name="question_cleopatra">Cleopatra was Queen of Egypt and mistress to Julius Caesar.</string>
+    <string name="question_castro">Fidel Castro became premiere of Cuba in 1959.</string>
+    <string name="question_smallpox">Marie Curie discovered the cure for smallpox in 1796.</string>
+    <string name="question_caesar">Julius Caesar was stabbed by Gaius Cassius Longinus.</string>
+    <string name="question_button">Button Gwinnett was the first person to sign the Declaration of Independence.</string>
+    <string name="question_playboy">Sophia Loren graced the cover of the first Playboy magazine in 1953.</string>
+    <string name="question_christmas_island">Captain Cook discovered Christmas Island on Christmas Eve 1777.</string>
+    <string name="question_smallpox2">Smallpox killed more than 1 billion people in 1979.</string>
+    <string name="question_revolution">The French Revolution began in 1779.</string>
+    <string name="question_mlk">Martin Luther King was assassinated in Memphis in 1969.</string>
+    <string name="question_woodstock">Woodstock Festival was held at Max Yasgur\'s dairy farm in New York in august of 1969.</string>
+    <string name="question_jesus">According to the Bible, baby Jesus\' first visitors were three kings.</string>
+    <string name="question_anthony">Susan B. Anthony, American feminist, is on the silver dollar.</string>
+    <string name="question_lennon">Mark David Chapman was famous for shooting John Lennon in 1980.</string>
+    <string name="question_lily">The Easter lily is a native plant of China.</string>
+    <string name="question_boleyn">Queen Anne Boleyn had an extra finger.</string>
+
+
+    <!--SCIENCE & NATURE QUESTIONS -->
+    <string name="question_absolute_zero">-459.7 F is known as absolute Zero.</string>
+    <string name="question_tintin">Tin Tin\'s canine companion was Snowy.</string>
+    <string name="question_pitcher">A Pitcher Plant is not carnivorous.</string>
+    <string name="question_pouch">An animal\'s pouch is called a marsupial.</string>
+    <string name="question_uterus">The human uterus expands 500 times its normal size during pregnancy.</string>
+    <string name="question_eeg">The initials E.E.G. stand for Electroectocardiogram.</string>
+    <string name="question_housecat">Since house cats\' coats are dry and glossy, their fur is easily charged with electricity.</string>
+    <string name="question_pewter">The alloy pewter is made from tin and copper.</string>
+    <string name="question_squareroot">The square root of 144 is 12.</string>
+    <string name="question_shrimp">A shrimp prawn is born a male and evolves to a female as it matures.</string>
+    <string name="question_snake">Most varieties of snakes can go 2 years without eating any food.</string>
+    <string name="question_dragonflies">Hawkers, Clubtails, Biddies, Emeralds, Darts &amp; Skimmers are all birds.</string>
+    <string name="question_hepatitis">Hepatitis affects the liver.</string>
+    <string name="question_flourine">Nitrogen is the most reactive element.</string>
+    <string name="question_venus">Venus and Mercury are the only two planets with no moons.</string>
+    <string name="question_aspirin">Acetylsalicycil Acid (aspirin) is spelled correctly.</string>
+    <string name="question_sirocco">A sirocco refers to a type of wind.</string>
+    <string name="question_kangaroos">A flock of geese is a gaggle. A group of kangaroos is a coop.</string>
+    <string name="question_seal">The blubber of a male elephant seal is used for lubricating machinery.</string>
+    <string name="question_speed_of_light">The \'c\' in e=mc^2 stands for the speed of light.</string>
+
+
+    <!--SPORTS & LEISURE QUESTIONS -->
+    <string name="question_heisman">The Heisman trophy is awarded in American football.</string>
+    <string name="question_billiard">There are 15 balls on a pool table at the start of a game.</string>
+    <string name="question_beer">If you were drinking castle beer, you would be in Ireland.</string>
+    <string name="question_chang">Michael Chang is an American tennis player.</string>
+    <string name="question_biathlon">Cross country skiing and shooting are events in a Biathlon.</string>
+    <string name="question_swimming">In swimming, one might helicopter to the Bugaboos.</string>
+    <string name="question_bowling">In 10 pin bowling, a perfect game consists of 280 points.</string>
+    <string name="question_salopettes">Salopettes are snow proof dungaree trousers.</string>
+    <string name="question_paramount">Paramount Pictures logo has 22 stars in it.</string>
+    <string name="question_heavyweight">Muhammad Ali was the youngest ever world heavyweight boxing champion.</string>
+    <string name="question_world_cup">The World Cup was first won by Brazil.</string>
+    <string name="question_olympic">The Olympic sport of boxing prohibits the wearing of a beard.</string>
+    <string name="question_ederle">In 1926, Gertrude Ederle was the first woman to swim the English Channel.</string>
+    <string name="question_queens">The Queens Park Rangers are the only English football league club beginning with the letter Q.</string>
+    <string name="question_golf">The minimum age a player can join the Seniors Golf Tour is 55.</string>
+    <string name="question_era">The letters ERA in baseball stand for Earned Run Average.</string>
+    <string name="question_canasta">In the card game Canasta, the object is to meld sets of 5 or more cards.</string>
+    <string name="question_stroke">The fastest swimming stroke is the crawl.</string>
+    <string name="question_nightmare">Six Nightmare on Elm Street movies were made in the 80\'s.</string>
+    <string name="question_hats">Fedora, bowler and boater are all types of hats.</string>
+
+
+    <!--MUSIC QUESTIONS -->
+    <string name="question_beatles">Love Me Do was the Beatles first hit single.</string>
+    <string name="question_horn">The French Horn and English Horn are in the key of G.</string>
+    <string name="question_mp3">MP3 stands for multimedia player 3rd edition.</string>
+    <string name="question_benatar">Pat Benatar recorded \'Shadows of the Night\' in 1981.</string>
+    <string name="question_tlc">TLC released the album Crazy Sexy Cool.</string>
+    <string name="question_50cent">Rap artist 50 Cent has his own video game.</string>
+    <string name="question_violin">The sound holes on violins resemble the letter \'V\'.</string>
+    <string name="question_bagpipe">The Chanter is the melody pipe played with two hands on a bagpipe.</string>
+    <string name="question_pretenders">The Pretenders released their first LP in 1981.</string>
+    <string name="question_ozzy">Ozzy Osbourne contracted rabies after biting the head off a live bat.</string>
+    <string name="question_charles">Ray Charles\' last name is Robinson.</string>
+    <string name="question_didgeridoo">Didgeridoo, an Australian instrument, is spelled correctly.</string>
+    <string name="question_allegro">Allegro is the root word of allergic.</string>
+    <string name="question_jackson">Michael Jackson\'s hit song Ben was originally intended for Donny Osmond.</string>
+    <string name="question_mccartney">Paul McCartney\'s first name is James.</string>
+    <string name="question_britney">Britney Spear\'s debut single was Toxic.</string>
+    <string name="question_scale">A musical scale comprises 8 notes.</string>
+    <string name="question_musical">The longest running musical in Broadway history is The Music Man.</string>
+    <string name="question_clarinet">You can tell that someone is faking playing the clarinet if their right hand is positioned at the top.</string>
+    <string name="question_eminem">Eminem\'s most controversial song was Bully.</string>
+
+
+    <!--ART & LITERATURE QUESTIONS -->
+    <string name="question_macbeth">McDowell killed MacBeth.</string>
+    <string name="question_sherlock">Sherlock Holmes resides at 221B Baker Street, London.</string>
+    <string name="question_botticelli">The artist Botticelli\'s name literally means Little Barrel.</string>
+    <string name="question_potter">The Goblet of Fire is the 3rd book in the Harry Potter series.</string>
+    <string name="question_rand">Ann Rand wrote a vampire series featuring Lestat.</string>
+    <string name="question_expialidocious">Expialidocious is spelled correctly.</string>
+    <string name="question_dickens">Charles Dickens is the author of Great Expectations.</string>
+    <string name="question_palette">A traditional artist\'s palette has two holes.</string>
+    <string name="question_enders_game">Orson Scott Card wrote Ender\'s Game.</string>
+    <string name="question_nobel_prize">Jean Paul Sarte rejected the Nobel Prize for literature in 1964.</string>
+    <string name="question_jane_austen">Jane Austen\'s novel, Persuasion, was published posthumously.</string>
+    <string name="question_van_gogh">Van Gogh painted the Mona Lisa.</string>
+    <string name="question_peter_pan">Captain Hook, Tigress and Tinker Bell are all characters in Peter Pan.</string>
+    <string name="question_shakespeare">Shakespeare\'s first name was Henry.</string>
+    <string name="question_monet">The term Impressionism was first used in conjunction with Claude Monet.</string>
+    <string name="question_beatrix_potter">Mrs. William Heelis is better known as Beatrix Potter.</string>
+    <string name="question_homer">Homer Simpson wrote the poem the Iliad and the Odyssey.</string>
+    <string name="question_jaws">Steven Spielberg wrote the novel Jaws.</string>
+    <string name="question_tung">Quotations from the Works of Chariman mao Tse-Tung is the 2nd best selling book of all time.</string>
+    <string name="question_barrie">James Matthew Barrie\'s most famous character is Winnie the Pooh.</string>
+    <string name="question_genre">Genre painting is a realistic style in which every day life forms are the subject matter.</string>
+
+
+    <string name="game_over">GAME OVER</string>
+    <string name="level_complete">LEVEL COMPLETED!!</string>
+
+    <string name="rules_title">GAME PLAY</string>
+    <string name="rules_play_header">Playing the Game</string>
+    <string name="rules_button_play">Pressing the PLAY button begins a new game.</string>
+    <string name="rules_play_content"> You will immediately start with the first activity. Each activity presented may be in the form of a question, a statement or a word that you must determine if it is spelled correctly.</string>
+    <string name="rules_button_truth">Tap the TRUTH button if you believe the answer is true.</string>
+    <string name="rules_button_tale">Tap the TALE button if you believe the answer is false.</string>
+    <string name="rules_timer">Watch out for the TIMER! Each level allows for a specific amount of time.</string>
+    <string name="rules_advancing_header">Advancing and Leveling Up</string>
+    <string name="rules_advancing_timer">Complete an activity before the timer runs out and you will automatically advance to the next activity.</string>
+    <string name="rules_advancing_content">Run out of time before you complete any one of the activities in a given level and you start that level over from the beginning. All progress from that level will be lost. Complete all activities in a level without running out of time or answering incorrectly and you will advance to the next level. As the levels increase, your time for each activity will decrease. Also note that quitting the game without completing a level will erase your progress for that level.</string>
+
+
+    <string name="about_title">About Truth or Tale</string>
+    <string name="about_content">At Truth or Tale, our goal is to create a fun, educational experience for you to enjoy with minimal distractions from the outside world. We value your time as much as you do. That is why you will not be bombarded by pop-ups asking you to rate or share us, or annoying ads that impede your progress in learning as much trivia as possible. If you love us, please tell others. Word of mouth is still the best form of advertising. For now, we are keeping it simple. Relax, enjoy and escape with Truth or Tale.</string>
+    <string name="about_content_version">App version 1.0</string>
+    <string name="about_content_copyright">Copyright 2016 by Michelle Goldman, All rights reserved.</string>
+    <string name="title_activity_game_over">GameOverActivity</string>
+
+</resources>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">User Data</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_new">New Course</string>
+    <string name="action_clear">Clear Form</string>
+    <string name="action_add">Add Course</string>
+    <string name="action_sync">Sync</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_login">Log In</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_update_courses">Update Courses</string>
+
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="signup_button">Create Account</string>
+
+    <string name="signup_activity">New User Sign Up</string>
+    <string name="login_activity">User Log In</string>
+    <string name="courses_activity">My Courses</string>
+    <string name="add_course_activity">Add New Course</string>
+    <string name="my_courses_activity">My Courses</string>
+
+    <string name="login_title">Please log in or sign up to access your courses.</string>
+    <string name="username_textview">Enter username</string>
+    <string name="password_textview">Enter password</string>
+    <string name="confirm_password_prompt">Please confirm your password:</string>
+    <string name="welcome_back_message">Welcome back </string>
+    <string name="username_prompt">*Username must be alpha only and between 4 to 10 characters long.</string>
+    <string name="password_prompt">*Password must be numeric only and 8 characters long.</string>
+    <string name="username_string_characters">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="password_string_numbers">0123456789</string>
+    <string name="special_characters">%,./?!*$#@()-_=+</string>
+    <string name="course_name_prompt">Course name must be between 3 to 24 characters in length.</string>
+    <string name="times_taken_prompt">Number of times must not exceed 2 digits.</string>
+    <string name="no_courses_message">You have no saved courses. Please add one.</string>
+
+    <string name="course_details">Enter course details:</string>
+    <string name="student_first_name">Enter your first name</string>
+    <string name="course_name">Enter course name</string>
+    <string name="course_list_name">Course Name</string>
+    <string name="times_taken">Number of times course taken</string>
+    <string name="times_list_taken"># Times Taken</string>
+    <string name="num_times_taken">Times Taken</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+
+</resources>
